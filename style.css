@@ -10,16 +10,16 @@ body {
 
 button {
     border: 2px solid blue;
-    width: 20vh;
+    width: 18vh;
     height: 7vh;
     background-color: white;
     border-radius: 100px;
     padding: 1%;
     color: black;
     transition-duration: 0.4s;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-bottom: 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 
 button:hover {
