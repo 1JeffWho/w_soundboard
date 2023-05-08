@@ -1,89 +1,70 @@
+html,
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-  }
-  
-  header {
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    padding: 0 50px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    max-height: 50px;
-  }
-  
-  .logo img {
-    max-height: 40px;
-  }
-  
-  .nav-menu ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  .nav-menu li {
-    margin: 0 10px;
+  margin: 0px;
+  background-color: rgb(244, 244, 244)
+}
+
+.h1 {
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .nav-menu a {
-    display: block;
-    padding: 10px;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-  
-  .image-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .image-item {
-    width: calc(50% - 20px); /* adjust width as needed */
-    margin: 10px;
-    box-sizing: border-box;
-  }
-  
-  .image-item img {
-    width: 100%;
-    height: auto;
-  }
-  
-  h2 {
+}
+
+button {
+    border: 2px solid blue;
+    width: 18vh;
+    height: 7vh;
+    background-color: white;
+    border-radius: 100px;
+    padding: 1%;
+    color: black;
+    transition-duration: 0.4s;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+button:hover {
+    background-color: rgb(88, 88, 255);
+    color: white;
+    transition-duration: 0.4s;
+    /* font-weight: bold; */
+}
+
+button:active {
+    border-color: white;
+    color: white;
+    transition-duration: 0.0s;
+}  
+
+/* Header */
+nav {
+    position: sticky;
+    box-shadow: 0px 2px 5px 0px rgba(68, 68, 68, 0.592);
+    margin-bottom: 2%;
     text-align: center;
-    margin-top: 50px;
-  }
-  .image-row {
-    margin-top: 600px; /* add margin-top to push the images down */
-  }
-  
-  .image-item {
-    width: calc(50% - 20px); /* adjust width as needed */
-    margin: 10px;
-    box-sizing: border-box;
-  }
- 
+}
+
+nav a {
+    display: block;
+    background-color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+}
+
+.box {
+    background-color: #333;
+    color: white;
+    padding: 0.5em;
+    margin: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;  
+    box-shadow: 0px 2px 5px 0px rgba(68, 68, 68, 0.592);
+}
+
+
+.sound_buttons {
+    margin: 3%;
+}
