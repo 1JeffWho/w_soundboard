@@ -17,8 +17,8 @@ button {
     padding: 1%;
     color: black;
     transition-duration: 0.4s;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-bottom: 2%;
 }
 
@@ -67,4 +67,11 @@ nav a {
 
 .sound_buttons {
     margin: 3%;
+}
+
+#searchBar {
+    color: white;
+    background-color:#333;
+    padding: 1%;
+    font-weight: bold;
 }
