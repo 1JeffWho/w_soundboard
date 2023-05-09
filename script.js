@@ -1,4 +1,4 @@
-const songs = ['bimmm', 'bistdudeppert', 'danke', 'eini do', 'haha', 'haudieiniafoch', 'hunger', 'i fixed it', 'schnuppie', 'schwupp', 'so_patrick_lets_go', 'und eini', 'watsi watsi', 'woaahh', 'woopsie woopsie', 'schnopsn programmierer', 'der hot a pech kobt', 'warten hat ein ende', 'kein problem', 'hee des is jo der woerny', 'ausi', 'des ist jetzt des schnopsn', 'der tauscht do korten aus', 'a fehler', 'des is net ohne', 'ihr lacht jetzt net', 'nein', 'tut wos wollts', 'yes', 'no', 'sind de weiblich oder wos is los'];
+const songs = ['bimmm', 'bistdudeppert', 'danke', 'eini do', 'haha', 'haudieiniafoch', 'hunger', 'i fixed it', 'schnuppie', 'schwupp', 'so_patrick_lets_go', 'und eini', 'watsi watsi', 'woaahh', 'woopsie woopsie', 'schnopsn programmierer', 'der hot a pech kobt', 'warten hat ein ende', 'kein problem', 'hee des is jo der woerny', 'ausi', 'des ist jetzt des schnopsn', 'der tauscht do korten aus', 'a fehler', 'des is net ohne', 'ihr lacht jetzt net', 'nein', 'tut wos wollts', 'yes', 'no', 'sind de weiblich oder wos is los', 'Der Roboter'];
 
 function playSound(sound) {
     if (sound == "random"){
