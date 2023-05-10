@@ -1,15 +1,28 @@
-const songs = ['bimmm', 'bistdudeppert', 'danke', 'eini do', 'haha', 'haudieiniafoch', 'hunger', 'i fixed it', 'schnuppie', 'schwupp', 'so_patrick_lets_go', 'und eini', 'watsi watsi', 'woaahh', 'woopsie woopsie', 'schnopsn programmierer', 'der hot a pech kobt', 'warten hat ein ende', 'kein problem', 'hee des is jo der woerny', 'ausi', 'des ist jetzt des schnopsn', 'der tauscht do korten aus', 'a fehler', 'des is net ohne', 'ihr lacht jetzt net', 'nein', 'tut wos wollts', 'yes', 'no', 'sind de weiblich oder wos is los', 'Der Roboter'];
+function getSounds() {
+  const buttons = document.querySelectorAll("button");
+  const sounds = [];
+
+  buttons.forEach(function(button) {
+    const onclickAttribute = button.getAttribute("onclick");
+    const parameter = onclickAttribute.replace("playSound('", "").replace("')", "");
+    sounds.push(parameter);
+  });
+
+  return sounds;
+}
 
 function playSound(sound) {
-    if (sound == "random"){
-        let a = Math.floor(Math.random() * songs.length);
-        sound = songs[a];
-        console.log(songs[a]);
-    }
+  const sounds = getSounds();
+  if (sound == "random"){
+    let a = Math.floor(Math.random() * sounds.length);
+    sound = sounds[a];
+    console.log("Random Sound: " + sounds[a]);
+  }
 
-    var audio = new Audio('/sounds/' + sound + '.mp3');
-    audio.play();
+  var audio = new Audio('/sounds/' + sound + '.mp3');
+  audio.play();
 }
+
 
 function searchFunction() {
   // Get input value and remove whitespaces and convert to lowercase
